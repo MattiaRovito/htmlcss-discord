@@ -11,7 +11,7 @@ body
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
-
+/* header */
 .container
 {
     height: 80px;
@@ -33,6 +33,68 @@ body
     top: 30%;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
+
+.menu nav
+{
+    text-align: center;
+    padding: 30px;
+}
+
+
+.menu nav ul li
+{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.menu nav ul li a
+{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.menu nav ul li a:hover
+{
+    text-decoration: 1px underline;
+}
+
+/* .button a
+{
+    border-radius: 25%;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: none;
+}
+ */
+
+/* fine header */
+
+
+
+
+
+
+/* jumbotron */
+
+
+
+
+
+
+
+
+
+
+
+
+/* fine jumbotron */
 
 
 
@@ -41,7 +103,14 @@ body
 /* debug */
 
 
-.debug .box
+/* .debug .box
 {
     background-color: red; 
+    height: 80px;
+} */
+
+.debug .jumbotron
+{
+    background-color: green;
+    height: 500px;
 }
