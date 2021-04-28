@@ -218,15 +218,71 @@ body
 
 /* footer */
 
-footer
+.container-footer
 {
     height: 600px;
     width: 100%;
     background-color: #23272a;
+    position: relative;
+}
+
+.loghi h2
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: #7289da;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.loghi span
+{
+    font-size: 14px;
+    color: white;
+}
+
+#ita
+{
+    height: 20px;
 }
 
 
+.loghi
+{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
 
+
+.loghi nav
+{
+    padding: 10px;
+}
+
+
+.loghi nav ul li
+{
+    display: inline-block;
+    font-weight: bold;
+    padding: 0 10px;
+    color: white;
+}
+
+#ita:hover
+{
+    cursor: pointer;
+}
+
+.loghi span:hover
+{
+    cursor: pointer;
+}
+
+.loghi nav ul li:hover
+{
+    cursor: pointer;
+}
 
 
 
