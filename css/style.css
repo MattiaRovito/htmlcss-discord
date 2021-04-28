@@ -59,12 +59,13 @@ body
     text-decoration: none;
 }
 
+
 .menu nav ul li a:hover
 {
     text-decoration: 1px underline;
 }
 
-.button a
+.button 
 {
     border-radius: 40px;
     background-color: white;
@@ -77,9 +78,10 @@ body
     position: absolute;
     top: 30%;
     right: 7%;
+    cursor: pointer;
 }
 
-.button a:hover
+.button:hover
 {
     color:cadetblue;
 }
@@ -98,17 +100,53 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    position:relative
 }
 
 
+.jumbotron .corpo-centrale
+{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 
+.jumbotron .corpo-centrale .testo h1
+{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.jumbotron .corpo-centrale .testo p
+{
+    font-size: 18px;
+    line-height: 2;
+}
 
 
+.bottoni-corpo
+{
+    border-radius: 28px;
+    background-color: white;
+    padding: 16px 32px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    top: 114%;
+    left: 12%;
+    cursor: pointer;
+}
 
-
-
-
+.bottoni-corpo:hover
+{
+    color:cadetblue;
+}
 
 /* fine jumbotron */
 
