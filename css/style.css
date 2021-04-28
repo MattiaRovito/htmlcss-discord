@@ -118,7 +118,7 @@ body
 .jumbotron .corpo-centrale .testo h1
 {
     font-size: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .jumbotron .corpo-centrale .testo p
@@ -128,7 +128,7 @@ body
 }
 
 
-.bottoni-corpo
+.bottoni-corpo-white
 {
     border-radius: 28px;
     background-color: white;
@@ -138,15 +138,43 @@ body
     font-size: 14px;
     color: black;
     position: absolute;
-    top: 114%;
-    left: 12%;
+    bottom: 18%;
+    left: 31%;
     cursor: pointer;
+    font-weight: bold;
 }
 
-.bottoni-corpo:hover
+.bottoni-corpo-white:hover
 {
     color:cadetblue;
 }
+
+.bottoni-corpo-black
+{
+    border-radius: 28px;
+    background-color: black;
+    padding: 16px 32px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 18%;
+    left: 48%;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bottoni-corpo-black:hover
+{
+    color:cadetblue;
+}
+
+
+
+
+
+
 
 /* fine jumbotron */
 
