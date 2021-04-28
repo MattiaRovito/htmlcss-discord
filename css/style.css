@@ -64,15 +64,28 @@ body
     text-decoration: 1px underline;
 }
 
-/* .button a
+.button a
 {
-    border-radius: 25%;
+    border-radius: 40px;
     background-color: white;
-    font-size: 20px;
-    padding: 10px 10px;
+    font-size: 14px;
+    padding: 7px 16px;
     border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    position: absolute;
+    top: 30%;
+    right: 7%;
 }
- */
+
+.button a:hover
+{
+    color:cadetblue;
+}
+
+
+
 
 /* fine header */
 
