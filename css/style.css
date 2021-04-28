@@ -224,6 +224,7 @@ body
     width: 100%;
     background-color: #23272a;
     position: relative;
+    
 }
 
 .loghi h2
@@ -252,6 +253,7 @@ body
     position: absolute;
     top: 10%;
     left: 20%;
+    
 }
 
 
@@ -285,21 +287,21 @@ body
 }
 
 
-.prodotto
+.prima-colonna
 {
     position: absolute;
     top: 11%;
     left: 40%;
 }
 
-.prodotto nav ul li a
+.position nav ul li a
 {
     text-decoration: none;
     font-size: 14px;
     color: white;
 }
 
-.prodotto nav ul li
+.position nav ul li
 {
     list-style: none;
     margin-bottom: 10px;
@@ -310,10 +312,71 @@ body
     text-decoration: none;
 }
 
-.prodotto nav ul li a:hover
+.position nav ul li a:hover
 {
     text-decoration: 1px underline;
 }
+
+.seconda-colonna
+{
+    position: absolute;
+    top: 11%;
+    left: 52%;
+}
+
+.terza-colonna
+{
+    position: absolute;
+    top: 11%;
+    left: 64%;
+}
+
+.quarta-colonna
+{
+    position: absolute;
+    top: 11%;
+    left: 76%;
+}
+
+.logo2
+{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+
+
+.button2 
+{
+    border-radius: 40px;
+    background-color: #8ea1e1;
+    font-size: 14px;
+    padding: 7px 16px;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    cursor: pointer;
+}
+
+.button2:hover
+{
+    color:cadetblue;
+}
+
+.bordo
+{
+    border-bottom: 1px solid #8ea1e1;
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    width: 70%;
+
+}
+
 
 
 
