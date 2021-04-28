@@ -16,7 +16,7 @@ body
 {
     height: 80px;
     width: auto;
-    background-color: rgb(77, 77, 230);
+    background-color: #255ee9;
     position: relative;
 }
 
@@ -83,10 +83,6 @@ body
 {
     color:cadetblue;
 }
-
-
-
-
 /* fine header */
 
 
@@ -96,6 +92,13 @@ body
 
 /* jumbotron */
 
+.jumbotron
+{
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
 
 
 
@@ -122,8 +125,7 @@ body
     height: 80px;
 } */
 
-.debug .jumbotron
+/* .debug .jumbotron
 {
     background-color: green;
-    height: 500px;
-}
+} */
