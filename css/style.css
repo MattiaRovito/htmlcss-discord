@@ -177,13 +177,13 @@ body
 /* main */
 
 
-.primo-main
+.corpo-main
 {
     position: relative;
     padding: 40px 60px;
 }
 
-.text
+.text1
 {
     position: absolute;
     top: 15%;
@@ -191,15 +191,29 @@ body
     width: 25%;
 }
 
-.text h2{
+.text h2
+{
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
-.text p{
+.text p
+{
     font-size: 18px;
 }
 
+.bg-scuro
+{
+    background-color: #b1b4b6;
+}
 
+.text2
+{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 25%;
+}
 
 
 
