@@ -345,6 +345,11 @@ body
     left: 20%;
 }
 
+.logo2:hover
+{
+    cursor: pointer;
+}
+
 
 .button2 
 {
