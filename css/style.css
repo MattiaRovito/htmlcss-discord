@@ -10,3 +10,38 @@ body
 {
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+
+
+.container
+{
+    height: 80px;
+    width: auto;
+    background-color: rgb(77, 77, 230);
+    position: relative;
+}
+
+
+.box
+{
+    margin: 0 80px;
+    /* position: relative; */
+}
+
+.logo
+{
+    position: absolute;
+    top: 30%;
+}
+
+
+
+
+
+
+/* debug */
+
+
+.debug .box
+{
+    background-color: red; 
+}
