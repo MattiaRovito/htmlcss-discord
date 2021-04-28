@@ -136,7 +136,7 @@ body
     border: none;
     text-decoration: none;
     font-size: 14px;
-    color: black;
+    color: #23272a;
     position: absolute;
     bottom: 18%;
     left: 31%;
@@ -152,7 +152,7 @@ body
 .bottoni-corpo-black
 {
     border-radius: 28px;
-    background-color: black;
+    background-color: #23272a;
     padding: 16px 32px;
     border: none;
     text-decoration: none;
@@ -170,13 +170,35 @@ body
     color:cadetblue;
 }
 
-
-
-
-
-
-
 /* fine jumbotron */
+
+
+
+/* main */
+
+
+.primo-main
+{
+    position: relative;
+    padding: 40px 60px;
+}
+
+.text
+{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 25%;
+}
+
+.text h2{
+    font-size: 40px;
+}
+
+.text p{
+    font-size: 18px;
+}
+
 
 
 
@@ -194,4 +216,9 @@ body
 /* .debug .jumbotron
 {
     background-color: green;
+} */
+
+/* .debug {
+    background-color: blue;
+    height: 500px;
 } */
