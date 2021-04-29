@@ -216,6 +216,10 @@ body
 }
 
 
+.wave svg{
+    display: block;
+}
+
 /* footer */
 
 .container-footer
